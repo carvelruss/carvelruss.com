@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     brandDescription:
       "At CodeFrites, we're not just your ordinary website development company; we bring a unique and personal touch to every project we undertake.",
     companyNumber: "+63 909 135 2732",
-    companyEmail: "friesquad@codefrites.com",
+    companyEmail: "hello@carvelruss.com",
     storysetAttribute: "https://storyset.com/online",
     socialNetworksDescription:
       "To get more updated on latest promotion and more, follow our social media accounts.",
