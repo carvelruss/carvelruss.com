@@ -242,6 +242,12 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 25%;
 }
 
+@media screen and (max-width: 767px) {
+  #header .logo img {
+    max-width: 40%;
+  }
+}
+
 .scrolled-offset {
   margin-top: 70px;
 }
