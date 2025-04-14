@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Footer data object with dynamic content
   const footerData = {
     brandLogo: "/assets/img/official-logo.svg",
-    brandName: "CodeFrites",
+    brandName: "Carvel Russ.",
     brandDescription:
       "At CodeFrites, we're not just your ordinary website development company; we bring a unique and personal touch to every project we undertake.",
     companyNumber: "+63 909 135 2732",
