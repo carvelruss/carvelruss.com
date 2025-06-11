@@ -19,11 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
     logoSrc: "/assets/img/official-logo.svg",
     brandName: "",
     navLinks: [
-      { text: "Home", href: "/index.html" },
-      { text: "About", href: "#" },
-      { text: "Services", href: "#" },
-      { text: "Our Work", href: "/p/our-work.html" },
-      { text: "Articles", href: "#" },
+      // { text: "Home", href: "/index.html" },
+      // { text: "About", href: "#" },
+      // { text: "Services", href: "#" },
+      // { text: "Our Work", href: "/p/our-work.html" },
+      // { text: "Articles", href: "#" },
       // Add more navigation links as needed
       // Example for a dropdown link:
       //   {
@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
       //       { text: 'Drop Down 4', href: '#' },
       //     ],
       //   },
-      { text: "Contact", href: "#" },
+      // { text: "Contact", href: "#" },
+      { text: "(+63) 909-135-2732", href: "#" },
     ],
   };
 
