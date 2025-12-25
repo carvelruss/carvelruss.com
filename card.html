@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f5e9f7;
+        }
+
+        .pricing-card {
+            background-color: #fff;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            position: relative;
+            height: 100%;
+        }
+
+        .badge-discount {
+            position: absolute;
+            top: -12px;
+            right: 12px;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            border-radius: 999px;
+            z-index: 1;
+        }
+
+        .badge-green {
+            background-color: #28a745;
+        }
+
+        .badge-purple {
+            background-color: #5a1e7d;
+        }
+
+        .badge-purple-red {
+            background-color: #890a64;
+        }
+
+        .check-icon {
+            color: #ca1b92;
+        }
+
+        .price-highlight {
+            color: #ca1b92;
+            font-weight: bold;
+        }
+
+        .pricing-title {
+            font-weight: 700;
+        }
+
+        .includes-title {
+            font-weight: 600;
+        }
+
+        .card-list li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row g-4 justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="pricing-card d-flex flex-column justify-content-between h-100">
+                    <span class="badge-discount badge-green">Save 40%</span>
+                    <div>
+                        <h5 class="pricing-title">Patient Direct Purchases</h5>
+                        <p>Simply direct your patients to BloomDNA.com and have them enter your doctor promo code to
+                            receive 40% discount!</p>
+                        <p class="price-highlight">Ex: $500 reduced down to $299</p>
+                        <p class="includes-title">INCLUDES:</p>
+                        <ul class="list-unstyled card-list">
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Drop Ship Specimen Kit Directly
+                                to the Patient</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Prepaid Express Return Shipping
+                                Label</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Website Activation</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Laboratory Processing of Specimen
+                            </li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>40+ Page Comprehensive Report via
+                                Secure Online Portal</li>
+                        </ul>
+                    </div>
+                    <div class="price-highlight">$299 per kit</div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="pricing-card d-flex flex-column justify-content-between h-100">
+                    <span class="badge-discount badge-purple">Save 50%</span>
+                    <div>
+                        <h5 class="pricing-title">Online Code Redemption</h5>
+                        <p>Pre-purchase a list of prepaid codes for online website redemption by your patients at
+                            BloomDNA.com!</p>
+                        <p class="price-highlight">Ex: $500 reduced down to $249</p>
+                        <p class="includes-title">INCLUDES:</p>
+                        <ul class="list-unstyled card-list">
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Drop Ship Specimen Kit Directly
+                                to the Patient</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Prepaid Express Return Shipping
+                                Label</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Website Activation</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Laboratory Processing of Specimen
+                            </li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>40+ Page Comprehensive Report via
+                                Secure Online Portal</li>
+                        </ul>
+                    </div>
+                    <div class="price-highlight">$249 per kit</div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="pricing-card d-flex flex-column justify-content-between h-100">
+                    <span class="badge-discount badge-purple-red">Save 60%</span>
+                    <div>
+                        <h5 class="pricing-title">Bulk Purchase (Minimum 20 Kits)</h5>
+                        <p>Pre-purchase specimen kits for your practice with supporting brochures that you can share
+                            directly with your patients.</p>
+                        <p class="price-highlight">Ex: $500 reduced down to $199</p>
+                        <p class="includes-title">INCLUDES:</p>
+                        <ul class="list-unstyled card-list">
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Prepackaged Kits Delivered to
+                                Your Office</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Prepaid Express Return Shipping
+                                Label</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Website Activation</li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>Laboratory Processing of Specimen
+                            </li>
+                            <li><i class="bi bi-check-circle-fill check-icon me-2"></i>40+ Page Comprehensive Report via
+                                Secure Online Portal</li>
+                        </ul>
+                    </div>
+                    <div class="price-highlight">$199 per kit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
